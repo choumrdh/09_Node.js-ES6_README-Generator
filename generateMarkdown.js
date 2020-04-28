@@ -8,7 +8,7 @@ function generateMarkdown(data) {
   - [Installation](https://github.com/${data.github}/${data.title}#installation-floppy_disk)
   - [Usage](https://github.com/${data.github}/${data.title}#usage)
   - [Running Tests](https://github.com/${data.github}/${data.title}#running-tests)
-  - [Contribution](https://github.com/${data.github}/${data.title}#contrubution-handshake)
+  - [Contribution](https://github.com/${data.github}/${data.title}#contribution-handshake)
   - [Author](https://github.com/${data.github}/${data.title}#author-bust_in_silhouette)
     - [Name](https://github.com/${data.github}/${data.title}#author-bust_in_silhouette)
     - [GitHub](https://github.com/${data.github}/${data.title}#author-bust_in_silhouette)
@@ -26,7 +26,7 @@ function generateMarkdown(data) {
    ${data.usage}
   > var ${data.title} = require("${data.title}")
 
-  ### Running Tests
+  ### Tests
   - install dev dependencies:
   ${data.test}
 

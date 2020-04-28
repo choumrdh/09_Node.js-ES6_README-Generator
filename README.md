@@ -7,7 +7,7 @@
   - [Installation](https://github.com/choumrdh/09_Node.js_ES6_README-Generator#installation-floppy_disk)
   - [Usage](https://github.com/choumrdh/09_Node.js_ES6_README-Generator#usage)
   - [Running Tests](https://github.com/choumrdh/09_Node.js_ES6_README-Generator#running-tests)
-  - [Contribution](https://github.com/choumrdh/09_Node.js_ES6_README-Generator#contrubution-handshake)
+  - [Contribution](https://github.com/choumrdh/09_Node.js_ES6_README-Generator#contribution-handshake)
   - [Author](https://github.com/choumrdh/09_Node.js_ES6_README-Generator#author-bust_in_silhouette)
     - [Name](https://github.com/choumrdh/09_Node.js_ES6_README-Generator#author-bust_in_silhouette)
     - [GitHub](https://github.com/choumrdh/09_Node.js_ES6_README-Generator#author-bust_in_silhouette)
