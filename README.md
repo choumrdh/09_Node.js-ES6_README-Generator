@@ -1,14 +1,13 @@
 
   # Project Title: 09_Node.js_ES6_README-Generator :raised_hands:
-  - :bulb: This is a node package that helps build a ReadMe.md
+  - This is a command-line application  that generate a ReadMe.md from user input.:bulb: 
   
   ### User Story :speech_balloon:
-  - AS A developer, I want a README generator so that I can easily put together a README for a new project.
+  - As A developer, I want a README generator so that I can easily put together a README for a new project.
   
-  ### :floppy_disk: Installation:
-  > install with [npm](https://www.npmjs.com/)
+  ###  Installation :floppy_disk::
   
-  > npm i 09_Node.js_ES6_README-Generator 
+  > npm install 09_Node.js_ES6_README-Generator 
 
   ### Usage
    
@@ -24,8 +23,8 @@
   
  
   
-  #### :bust_in_silhouette:	Author
-  > - Name: Michelle [![follower](https://img.shields.io/github/followers/choumrdh?label=follower&style=social)](https://github.com/choumrdh?tab=followers)
+  #### 	Author :bust_in_silhouette:
+   - Name: Michelle [![follower](https://img.shields.io/github/followers/choumrdh?label=follower&style=social)](https://github.com/choumrdh?tab=followers)
   
   > - GitHub: [choumrdh](https://github.com/choumrdh)
 
@@ -33,4 +32,4 @@
   > - email: chou.m.rdh@gmail.com
  ### License
   > 
-  - [![Copyright ©](https://img.shields.io/badge/Copyright-Michelle-blue)]((https://github.com/choumrdh))
+  - [![Copyright](https://img.shields.io/badge/Copyright-Michelle-blue)](https://github.com/choumrdh)

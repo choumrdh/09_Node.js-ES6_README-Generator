@@ -57,13 +57,9 @@ const questions = [
     }, {
         type: "input",
         name: "github",
-        message: "Please into your GitHub username"
+        message: "Please input your GitHub username"
     }
 ];
-
-// function writeToFile(fileName, data) {
-// }
-
 
 async function init() {
     console.log("Hi.Let me Gather some information to build your readMe file");
@@ -91,7 +87,7 @@ async function init() {
         await writeFileAsync("README.md", readMe);
         console.log("Successfully written readMe")
     } catch (err) {
-        console.log(err + "Erro on init function")
+        console.log(err + "Err from init function")
     }
 }
 

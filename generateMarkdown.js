@@ -1,15 +1,14 @@
 function generateMarkdown(data) {
   return `
   # Project Title: ${data.title} :raised_hands:
-  - :bulb: ${data.description}
+  - ${data.description}:bulb: 
   
   ### User Story :speech_balloon:
   - ${data.story}
   
-  ### :floppy_disk: Installation:
-  > install with [npm](https://www.npmjs.com/)
+  ###  Installation :floppy_disk::
   ${data.installation}
-  > npm i ${data.title} 
+  > npm install ${data.title} 
 
   ### Usage
    ${data.usage}
@@ -25,8 +24,8 @@ function generateMarkdown(data) {
   
  
   
-  #### :bust_in_silhouette:	Author
-  > - Name: ${data.name} [![follower](https://img.shields.io/github/followers/${data.github}?label=follower&style=social)](https://github.com/${data.github}?tab=followers)
+  #### 	Author :bust_in_silhouette:
+   - Name: ${data.name} [![follower](https://img.shields.io/github/followers/${data.github}?label=follower&style=social)](https://github.com/${data.github}?tab=followers)
   
   > - GitHub: [${data.github}](https://github.com/${data.github})
 
@@ -34,7 +33,7 @@ function generateMarkdown(data) {
   > - email: ${data.email}
  ### License
   > ${data.license}
-  - [![Copyright ©](https://img.shields.io/badge/Copyright-${data.name}-blue)]((https://github.com/${data.github}))
+  - [![Copyright](https://img.shields.io/badge/Copyright-${data.name}-blue)](https://github.com/${data.github})
 `;
 }
 
