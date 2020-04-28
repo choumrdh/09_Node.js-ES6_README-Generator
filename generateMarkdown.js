@@ -2,6 +2,18 @@ function generateMarkdown(data) {
   return `
   # Project Title: ${data.title} :raised_hands:
   - ${data.description}:bulb: 
+
+  ## Table of Contents:
+  - [User Story](https://github.com/${data.github}/${data.title}#user-story-speech_balloon)
+  - [Installation](https://github.com/${data.github}/${data.title}#installation-floppy_disk)
+  - [Usage](https://github.com/${data.github}/${data.title}#usage)
+  - [Running Tests](https://github.com/${data.github}/${data.title}#running-tests)
+  - [Contribution](https://github.com/${data.github}/${data.title}#contrubution-handshake)
+  - [Author](https://github.com/${data.github}/${data.title}#author-bust_in_silhouette)
+    - [Name](https://github.com/${data.github}/${data.title}#author-bust_in_silhouette)
+    - [GitHub](https://github.com/${data.github}/${data.title}#author-bust_in_silhouette)
+    - [Email](https://github.com/${data.github}/${data.title}#author-bust_in_silhouette)
+  - [License](https://github.com/${data.github}/${data.title}#license-trophy)
   
   ### User Story :speech_balloon:
   - ${data.story}
@@ -18,7 +30,7 @@ function generateMarkdown(data) {
   - install dev dependencies:
   ${data.test}
 
- ### Contrubution :handshake: 
+ ### Contribution :handshake: 
  [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/${data.github}/${data.title}/issues)
   ${data.contribution}
   
