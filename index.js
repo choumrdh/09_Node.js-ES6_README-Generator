@@ -45,11 +45,11 @@ const questions = [
     }, {
         type: "input",
         name: "test",
-        message: "Test Command (Press ENTER to skip"
+        message: "Test Command (Press ENTER to skip)"
     }, {
         type: "input",
         name: "contribution",
-        message: "Contribution (Press ENTER to skip"
+        message: "Contribution (Press ENTER to skip)"
     }, {
         type: "input",
         name: "license",
@@ -72,7 +72,8 @@ async function init() {
         const gitHubData = await gitHubInfo(data)
         const response = gitHubData.data
         const avatar = response[0].actor.avatar_url
-        console.log(avatar)
+        data.avatar = avatar
+        
         for (let i = 0; i < response.length; i++) {
             const info = response[i]
             if (info.payload && info.payload.commits) {

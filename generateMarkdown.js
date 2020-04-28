@@ -6,33 +6,35 @@ function generateMarkdown(data) {
   ### User Story :speech_balloon:
   - ${data.story}
   
-  ### Installation
-  install with [npm](https://www.npmjs.com/)
-  > npm i ${data.installation} 
+  ### :floppy_disk: Installation:
+  > install with [npm](https://www.npmjs.com/)
+  ${data.installation}
+  > npm i ${data.title} 
 
   ### Usage
-  - ${data.usage}
-  > - var ${data.title} = require("${data.title}")
+   ${data.usage}
+  > var ${data.title} = require("${data.title}")
 
   ### Running Tests
   - install dev dependencies:
-  > - ${data.test}
+  ${data.test}
 
  ### Contrubution :handshake: 
- [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/${data.github}/esta/issues)
-  > - ${data.contribution}
+ [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/${data.github}/${data.title}/issues)
+  ${data.contribution}
   
  
   
   #### :bust_in_silhouette:	Author
-  > - Name: ${data.name} https://img.shields.io/github/followers/${data.github}?label=follower&style=social
+  > - Name: ${data.name} [![follower](https://img.shields.io/github/followers/${data.github}?label=follower&style=social)](https://github.com/${data.github}?tab=followers)
   
   > - GitHub: [${data.github}](https://github.com/${data.github})
+
   > - <img src="${data.avatar}"/>
   > - email: ${data.email}
  ### License
-  > - [![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)](https://github.com/${data.github}/${data.title})
-  - copyright ${data.name}
+  > ${data.license}
+  - [![Copyright ©](https://img.shields.io/badge/Copyright-${data.name}-blue)]((https://github.com/${data.github}))
 `;
 }
 
