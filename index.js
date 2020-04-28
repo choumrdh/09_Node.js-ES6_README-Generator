@@ -44,7 +44,7 @@ const questions = [
         message: "Usage command or instrcution(Press ENTER to skip)"
     }, {
         type: "input",
-        name: "tests",
+        name: "test",
         message: "Test Command (Press ENTER to skip"
     }, {
         type: "input",
