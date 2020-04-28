@@ -3,23 +3,23 @@
   - :bulb: This is a node package that helps build a ReadMe.md
   
   ### User Story :speech_balloon:
-  - AS A developer, I want a README generator so that I can easily put together a README for a new project
+  - AS A developer, I want a README generator so that I can easily put together a README for a new project.
   
   ### :floppy_disk: Installation:
   > install with [npm](https://www.npmjs.com/)
   
-  > npm i 09_Node.js-ES6_README-Generator 
+  > npm i 09_Node.js_ES6_README-Generator 
 
   ### Usage
    
-  > var 09_Node.js-ES6_README-Generator = require("09_Node.js-ES6_README-Generator")
+  > var 09_Node.js_ES6_README-Generator = require("09_Node.js_ES6_README-Generator")
 
   ### Running Tests
   - install dev dependencies:
   
 
  ### Contrubution :handshake: 
- [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/choumrdh/09_Node.js-ES6_README-Generator/issues)
+ [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/choumrdh/09_Node.js_ES6_README-Generator/issues)
   
   
  
