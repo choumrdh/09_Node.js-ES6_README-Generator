@@ -1,31 +1,29 @@
-
-  # Project Title: 09_Node.js-ES6_README-Generator :raised_hands:
-  - :bulb: This help building a ReadMe.md 
+  # Project Title: 09_Node.js_ES6_README-Generator :raised_hands:
+  - This is a command-line application  that generate a ReadMe.md from user input.:bulb: 
   
   ### User Story :speech_balloon:
-  - AS A developer, I want a README generator so that I can easily put together a README for a new project
+  - As A developer, I want a README generator so that I can easily put together a README for a new project.
   
-  ### :floppy_disk: Installation:
-  > install with [npm](https://www.npmjs.com/)
+  ###  Installation :floppy_disk::
   
-  > npm i 09_Node.js-ES6_README-Generator 
+  > npm install 09_Node.js_ES6_README-Generator 
 
   ### Usage
    
-  > var 09_Node.js-ES6_README-Generator = require("09_Node.js-ES6_README-Generator")
+  > var 09_Node.js_ES6_README-Generator = require("09_Node.js_ES6_README-Generator")
 
   ### Running Tests
   - install dev dependencies:
   
 
  ### Contrubution :handshake: 
- [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/choumrdh/09_Node.js-ES6_README-Generator/issues)
+ [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/choumrdh/09_Node.js_ES6_README-Generator/issues)
   
   
  
   
-  #### :bust_in_silhouette:	Author
-  > - Name: Michelle [![follower](https://img.shields.io/github/followers/choumrdh?label=follower&style=social)](https://github.com/choumrdh?tab=followers)
+  #### 	Author :bust_in_silhouette:
+   - Name: Michelle [![follower](https://img.shields.io/github/followers/choumrdh?label=follower&style=social)](https://github.com/choumrdh?tab=followers)
   
   > - GitHub: [choumrdh](https://github.com/choumrdh)
 
@@ -33,4 +31,4 @@
   > - email: chou.m.rdh@gmail.com
  ### License
   > 
-  - Copyright © Michelle
+  - [![Copyright](https://img.shields.io/badge/Copyright-Michelle-blue)](https://github.com/choumrdh)

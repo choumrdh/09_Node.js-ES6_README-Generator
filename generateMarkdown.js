@@ -28,10 +28,10 @@ function generateMarkdown(data) {
    - Name: ${data.name} [![follower](https://img.shields.io/github/followers/${data.github}?label=follower&style=social)](https://github.com/${data.github}?tab=followers)
   
   > - GitHub: [${data.github}](https://github.com/${data.github})
-
-  > - <img src="${data.avatar}"/>
   > - email: ${data.email}
- ### License
+  > - <img src="${data.avatar}"/>
+  
+ ### License :trophy:
   > ${data.license}
   - [![Copyright](https://img.shields.io/badge/Copyright-${data.name}-blue)](https://github.com/${data.github})
 `;
