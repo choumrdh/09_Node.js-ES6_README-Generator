@@ -18,7 +18,7 @@ function gitHubInfo(data) {
 }
 
 const questions = [
-    {
+        {
         type: "input",
         name: "name",
         message: "What is your name?"
@@ -58,11 +58,29 @@ const questions = [
         type: "input",
         name: "github",
         message: "Please input your GitHub username"
+    },{
+        type:"list",
+        name:"emailAddress",
+        message:"Would you like to display your email address?",
+        choices:[
+            "Yes",
+            "No",
+        ]
+    },{
+        type:"list",
+        name:"profilePic",
+        message:"Would you like to display your GitHub profile avatar?",
+        choices:[
+            "Yes",
+            "No"
+        ]
     }
+    
 ];
 
 async function init() {
-    console.log("Hi.Let me Gather some information to build your readMe file");
+    console.log("Hi. Let me Gather some information to build your readMe file");
+    
     try {
         const data = await createPromptModule()
         const gitHubData = await gitHubInfo(data)
@@ -87,7 +105,7 @@ async function init() {
         await writeFileAsync("README.md", readMe);
         console.log("Successfully written readMe")
     } catch (err) {
-        console.log(err + "Err from init function")
+        console.log(err + " Err from init function")
     }
 }
 

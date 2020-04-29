@@ -25,7 +25,7 @@
    
   > var 09_Node.js_ES6_README-Generator = require("09_Node.js_ES6_README-Generator")
 
-  ### Running Tests
+  ### Tests
   - install dev dependencies:
   
 
@@ -40,7 +40,7 @@
   
   > - GitHub: [choumrdh](https://github.com/choumrdh)
   > - email: chou.m.rdh@gmail.com
-  > - <img src="https://avatars.githubusercontent.com/u/59773605?"/>
+  >  
   
  ### License :trophy:
   > 

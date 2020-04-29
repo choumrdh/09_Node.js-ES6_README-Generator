@@ -40,8 +40,8 @@ function generateMarkdown(data) {
    - Name: ${data.name} [![follower](https://img.shields.io/github/followers/${data.github}?label=follower&style=social)](https://github.com/${data.github}?tab=followers)
   
   > - GitHub: [${data.github}](https://github.com/${data.github})
-  > - email: ${data.email}
-  > - <img src="${data.avatar}"/>
+  > - email: ${data.emailAddress === "Yes" ? `${data.email}` : `Not available`}
+  > ${data.profilePic === "Yes" ? `<img src="${data.avatar}"/>` : ``} 
   
  ### License :trophy:
   > ${data.license}
