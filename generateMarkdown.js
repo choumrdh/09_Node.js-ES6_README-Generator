@@ -19,20 +19,20 @@ function generateMarkdown(data) {
   - ${data.story}
   
   ###  Installation :floppy_disk::
-  ${data.installation}
-  > npm install ${data.title} 
-
+  ${data.installation === "" ? `> npm install ${data.title}` : `> ${data.installation}`}
+   
   ### Usage
-   ${data.usage}
-  > var ${data.title} = require("${data.title}")
 
+   ${data.usage === "" ? `> var ${data.title} = require("${data.title}")` : `> ${data.usage}`}
+  
   ### Tests
-  - install dev dependencies:
-  ${data.test}
+  
+  ${data.test === ""  ? `- install dev dependencies:`: `- ${data.test}`}
 
  ### Contribution :handshake: 
+ ${data.contribution}
  [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/${data.github}/${data.title}/issues)
-  ${data.contribution}
+  
   
  
   
@@ -44,8 +44,8 @@ function generateMarkdown(data) {
   > ${data.profilePic === "Yes" ? `<img src="${data.avatar}"/>` : ``} 
   
  ### License :trophy:
-  > ${data.license}
-  - [![Copyright](https://img.shields.io/badge/Copyright-${data.name}-blue)](https://github.com/${data.github})
+  > ${data.license === "" ? `- [![Copyright](https://img.shields.io/badge/Copyright-${data.name}-blue)](https://github.com/${data.github})` : `${data.license}`}
+  
 `;
 }
 

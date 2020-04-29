@@ -1,4 +1,3 @@
-
   # Project Title: 09_Node.js_ES6_README-Generator :raised_hands:
   - This is a command-line application that generate a ReadMe.md from user input.:bulb: 
 
