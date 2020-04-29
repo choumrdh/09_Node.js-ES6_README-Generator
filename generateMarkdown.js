@@ -7,7 +7,7 @@ function generateMarkdown(data) {
   - [User Story](https://github.com/${data.github}/${data.title}#user-story-speech_balloon)
   - [Installation](https://github.com/${data.github}/${data.title}#installation-floppy_disk)
   - [Usage](https://github.com/${data.github}/${data.title}#usage)
-  - [Running Tests](https://github.com/${data.github}/${data.title}#tests)
+  - [Tests](https://github.com/${data.github}/${data.title}#tests)
   - [Contribution](https://github.com/${data.github}/${data.title}#contribution-handshake)
   - [Author](https://github.com/${data.github}/${data.title}#author-bust_in_silhouette)
     - [Name](https://github.com/${data.github}/${data.title}#author-bust_in_silhouette)
