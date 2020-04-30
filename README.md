@@ -42,5 +42,4 @@
   >
   
  ### License :trophy:
-  > 
-  - [![Copyright](https://img.shields.io/badge/Copyright-Michelle-blue)](https://github.com/choumrdh)
+   [![Copyright](https://img.shields.io/badge/Copyright-Michelle-blue)](https://github.com/choumrdh)
