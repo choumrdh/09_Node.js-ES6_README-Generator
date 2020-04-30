@@ -18,7 +18,7 @@
   
   ###  Installation :floppy_disk::
   
-  > npm install 09_Node.js_ES6_README-Generator 
+  > npm install 
 
   ### Usage
    

@@ -19,7 +19,7 @@ function generateMarkdown(data) {
   - ${data.story}
   
   ###  Installation :floppy_disk::
-  ${data.installation === "" ? `> npm install ${data.title}` : `> ${data.installation}`}
+  ${data.installation === "" ? `> npm install ` : `> ${data.installation}`}
    
   ### Usage
 
