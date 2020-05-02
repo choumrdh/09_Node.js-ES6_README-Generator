@@ -44,6 +44,6 @@
  ### License :trophy:
    [![Copyright](https://img.shields.io/badge/Copyright-Michelle-blue)](https://github.com/choumrdh)
 
-   ##### Example:
-  > [![Watch Video](./ReadME.png)](https://drive.google.com/file/d/1670Hk0y9x0-19sE3Ie-DIFSrFx7mDiHJ/view)
+   ##### Example Video:
+  > [![Watch Video](./Assets/ReadME.png)](https://drive.google.com/file/d/1670Hk0y9x0-19sE3Ie-DIFSrFx7mDiHJ/view)
 
