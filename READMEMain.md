@@ -45,4 +45,5 @@
    [![Copyright](https://img.shields.io/badge/Copyright-Michelle-blue)](https://github.com/choumrdh)
 
    ##### Example:
-  > [![Watch the video](./Assets/ReadMe.png)](https://drive.google.com/file/d/1670Hk0y9x0-19sE3Ie-DIFSrFx7mDiHJ/view)
+  > [![Watch the video](ReadMe.png)](https://drive.google.com/file/d/1670Hk0y9x0-19sE3Ie-DIFSrFx7mDiHJ/view)
+ 
