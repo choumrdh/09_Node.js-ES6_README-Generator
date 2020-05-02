@@ -4,16 +4,16 @@ function generateMarkdown(data) {
   - ${data.description}:bulb: 
 
   ## Table of Contents:
-  - [User Story](https://github.com/${data.github}/${data.title}#user-story-speech_balloon)
-  - [Installation](https://github.com/${data.github}/${data.title}#installation-floppy_disk)
-  - [Usage](https://github.com/${data.github}/${data.title}#usage)
-  - [Tests](https://github.com/${data.github}/${data.title}#tests)
-  - [Contribution](https://github.com/${data.github}/${data.title}#contribution-handshake)
-  - [Author](https://github.com/${data.github}/${data.title}#author-bust_in_silhouette)
-    - [Name](https://github.com/${data.github}/${data.title}#author-bust_in_silhouette)
-    - [GitHub](https://github.com/${data.github}/${data.title}#author-bust_in_silhouette)
-    - [Email](https://github.com/${data.github}/${data.title}#author-bust_in_silhouette)
-  - [License](https://github.com/${data.github}/${data.title}#license-trophy)
+  - [User Story](#user-story-speech_balloon)
+  - [Installation](#installation-floppy_disk)
+  - [Usage](#usage)
+  - [Tests](#tests)
+  - [Contribution](#contribution-handshake)
+  - [Author](#author-bust_in_silhouette)
+    - [Name](#author-bust_in_silhouette)
+    - [GitHub](#author-bust_in_silhouette)
+    - [Email](#author-bust_in_silhouette)
+  - [License](#license-trophy)
   
   ### User Story :speech_balloon:
   - ${data.story}

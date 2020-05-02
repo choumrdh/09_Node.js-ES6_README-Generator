@@ -10,7 +10,7 @@
   - [Author](#author-bust_in_silhouette)
     - [Name](#author-bust_in_silhouette)
     - [GitHub](#author-bust_in_silhouette)
-    - [Email](#author-bust_in_silhouette)
+    - [Email](author-bust_in_silhouette)
   - [License](#license-trophy)
   
   ### User Story :speech_balloon:
