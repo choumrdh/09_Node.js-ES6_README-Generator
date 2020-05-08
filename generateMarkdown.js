@@ -44,7 +44,7 @@ function generateMarkdown(data) {
   > ${data.profilePic === "Yes" ? `<img src="${data.avatar}"/>` : ``} 
   
  ### License :trophy:
-   ${data.license === "" ? `- [![Copyright](https://img.shields.io/badge/Copyright-${data.name}-blue)](https://github.com/${data.github})` : `- ![License](https://img.shields.io/badge/License-${data.license}-blue)`}
+   ${data.license === "None" ? `- [![Copyright](https://img.shields.io/badge/Copyright-${data.name}-blue)](https://github.com/${data.github})` : `- ![License](https://img.shields.io/badge/License-${data.license}-blue)`}
   
 `;
 }

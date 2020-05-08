@@ -18,7 +18,7 @@ function gitHubInfo(data) {
 }
 
 const questions = [
-        {
+    {
         type: "input",
         name: "name",
         message: "What is your name?"
@@ -51,43 +51,44 @@ const questions = [
         name: "contribution",
         message: "Contribution (Press ENTER to skip)"
     }, {
-        type: "input",
+        type: "list",
         name: "license",
-        message: "License name(Press ENTER to skip)"
+        message: "What kind of license should your project have?",
+        choices: ["MIT", "APACHE2.0", "GPL3.0", "BSD3", "None"]
     }, {
         type: "input",
         name: "github",
         message: "Please input your GitHub username"
-    },{
-        type:"list",
-        name:"emailAddress",
-        message:"Would you like to display your email address?",
-        choices:[
+    }, {
+        type: "list",
+        name: "emailAddress",
+        message: "Would you like to display your email address?",
+        choices: [
             "Yes",
             "No",
         ]
-    },{
-        type:"list",
-        name:"profilePic",
-        message:"Would you like to display your GitHub profile avatar?",
-        choices:[
+    }, {
+        type: "list",
+        name: "profilePic",
+        message: "Would you like to display your GitHub profile avatar?",
+        choices: [
             "Yes",
             "No"
         ]
     }
-    
+
 ];
 
 async function init() {
     console.log("Hi. Let me Gather some information to build your readMe file");
-    
+
     try {
         const data = await createPromptModule()
         const gitHubData = await gitHubInfo(data)
         const response = gitHubData.data
         const avatar = response[0].actor.avatar_url
         data.avatar = avatar
-        
+
         for (let i = 0; i < response.length; i++) {
             const info = response[i]
             if (info.payload && info.payload.commits) {
